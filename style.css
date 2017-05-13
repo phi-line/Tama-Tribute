@@ -20,26 +20,37 @@ p {
 }
 
 #header {
-    background: #85D7FF;
-    background-image: linear-gradient(90deg, #85D7FF, #78C1E5);
-    border-top: solid 10px;
-    border-top-radius: 2em;
+  padding: -10px;
+  background-color: #85D7FF;
+  background-image: linear-gradient(90deg, #85D7FF, #78C1E5);
+  border-top: solid 10px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #card{
-    padding-top: 2em;
-    display: flex;
-    align-items: center;
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
 }
 
-.top-grad{
-    background: #85D7FF;
-    background-image: linear-gradient(180deg, #E8E8E8, #FFFFFF);
+.bottom-grad{
+  background: #E8E8E8;
+  background-image: linear-gradient(180deg, #E8E8E8, #FFFFFF);
 }
 
 .profile-pic{
   position: relative;
-  padding: 1em;
   width: 100%;
-  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.subtext{
+  font-size: 80%;
+  margin-top: -0.5em;
+  padding: .9em;
+  background-color: #E8E8E8;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }

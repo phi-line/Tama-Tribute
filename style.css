@@ -1,0 +1,45 @@
+body{
+  background-color: #FFFFFF;
+}
+
+h1,h2 {
+  color: #213640;
+  font-family: 'Indie Flower', 'Rounded Mplus 1c', sans-serif;
+}
+
+h1 {
+  padding-top: 1em;
+}
+
+h2 {
+  padding: 0.5em 0 0.5em 0;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#header {
+    background: #85D7FF;
+    background-image: linear-gradient(90deg, #85D7FF, #78C1E5);
+    border-top: solid 10px;
+    border-top-radius: 2em;
+}
+
+#card{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.top-grad{
+    background: #85D7FF;
+    background-image: linear-gradient(180deg, #E8E8E8, #FFFFFF);
+}
+
+.profile-pic{
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  border-radius: 25px;
+}
